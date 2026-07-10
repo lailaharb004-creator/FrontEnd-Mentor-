@@ -1,0 +1,148 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-width: 100%;
+    min-height: 100vh;
+    background-color: #ecf2ff ;
+}
+
+.card {
+    display: flex;
+    width:35%;
+    height:45vh;
+    background-color: #fff;
+    border-radius: 30px;;
+}
+.blue-part {
+    background-color: #3d31ee;
+    width:50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    color:#aeacfb;
+    border-radius: 30px;;
+}
+.white-part{
+    width:50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+   
+}
+
+.row {
+    width:100%;
+    border-radius: 10px;;
+    display :flex ;
+    justify-content: space-between;
+    padding:10px 5px;
+}
+.row-sub{
+    display: flex;
+    gap:5px;
+}
+
+.rows{
+    display: flex;
+    flex-direction: column;
+    width:80%;
+    gap:15px;
+}
+.button{
+   width:80%;
+   padding:10px;
+   text-decoration: none;
+   color:#fff;
+   background-color: #313c5a;
+   text-align: center;
+   border-radius: 50px;
+}
+.align-left{
+    width:80%;
+    color:#313c5a;
+    font-size: 1.5em;;
+}
+.red {
+    color:#ff5454;
+    background:rgba(255, 84, 84 ,0.1);
+}
+.yellow {
+    color:#ffb21d;
+    background:rgba(255, 178, 29, 0.1);
+}
+.blue {
+    color:#3d31ee;
+    background: rgba(61, 49, 238,0.1);
+}
+.green{
+    color:#00bb8f;
+    background: rgba(0, 187, 143,0.1);
+}
+.black {
+    color :#323d5a;
+}
+.black span {
+    color :rgba(50, 61, 90,0.5)
+}
+.text {
+
+    width: 80%;
+    height:25%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding:0 5px;;
+}
+.middle , .top{
+  font-size: 1.5em;;
+}
+.middle{
+    color:#fff;
+}
+ .number{
+    font-size: 3em;
+    color: #fff;
+ }
+ .circle {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width:60%;
+    height:40%;
+    border-radius:50%;
+    background: linear-gradient(
+        360deg ,
+        rgb(60, 48, 238) ,
+        rgb(75, 36, 204)
+   );
+   
+ }
+@media(max-width:767px){
+    .card {
+        flex-direction: column;
+        width:70%;
+        height:80vh;
+    }
+    .blue-part{
+        width:100%;
+        height:50%;
+    }
+    .white-part{
+        width:100%;
+        height: 50%;
+    }
+    
+}
