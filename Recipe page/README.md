@@ -4,7 +4,7 @@ This is my solution to the **Recipe Page** challenge from Frontend Mentor. The p
 
 ## 🔗 Links
 
-- **Live Site:** https://lailaharb004-creator.github.io/FrontEnd-Mentor-/Recipe page
+- **Live Site:** https://lailaharb004-creator.github.io/FrontEnd-Mentor-/Recipe%20page/
 - **Solution Repository:** https://github.com/lailaharb004-creator/FrontEnd-Mentor-/tree/main/Recipe%20page
 
 ## 🚀 Built With
