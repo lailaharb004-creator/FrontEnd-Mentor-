@@ -1,0 +1,132 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+    
+}
+body{
+    min-height: 100vh;
+    min-width:100%;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f3e5d8;
+    font-size: 0.9em;
+    color: #5d5b5b;
+}
+.young-serif-regular {
+    font-family: "Young Serif", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.card{
+    margin: 50px;;
+    height:auto;
+    background-color: #fff;
+    width:40%;
+    display: flex ;
+    flex-direction: column;
+    padding: 30px;
+    border-radius: 20px;;
+}
+
+img{
+    width:100%;
+    border-radius:10px;
+
+}
+.one {
+    padding: 20px 0;
+}
+.one h1 {
+    margin-bottom: 10px;
+    font-weight: 600;
+}
+.two {
+    background-color: #ffecf6;
+    padding: 0.8em 0;
+    border-radius: 5px;
+}
+.two h3{
+    color:#753a53;
+    font-weight: 400;
+    padding-left: 0.8em;
+   
+}
+.two ul {
+    list-style-type:disc;
+    font-size:0.7em ;
+    font-family: "Outfit", sans-serif;
+    padding-left: 2.5em;    
+}
+.two ul li::marker {
+    color: #753a53;
+    
+}
+.two li , .three li{
+    margin: 0.8em;
+}
+.two span{
+    font-weight:900;
+}
+.three h2 , .four h2 , .five h2{
+    color:#7f4736;
+}
+.three ul li::marker ,
+.four ul li::marker  ,
+.five ul li::marker ,
+.colored{
+    color:#7f4736;
+}
+
+.three ,.four{
+
+    padding: 1.5em 0.8em;;
+}
+.three ul, .four ul{
+    margin-top:0.5em;
+    padding-left: 0.5em;
+   
+}
+.three li , .four li {
+    padding-left:0.9em;
+    font-size: 0.9em;
+}
+.four{
+    padding: 1.5em 0.8em;;
+}
+.four ul {    
+    list-style-type:decimal;
+}
+.four li{
+    margin-top: 0.8em;;
+}
+.four span , .four li::marker , .colored{
+    font-weight: 900;
+    
+}
+
+.five{
+    padding:1.5em;
+}
+.five h2{
+    margin-bottom: 0.8em;
+}
+.five  table{
+    width:100%;
+    border-collapse: collapse;
+    margin-top: 0.5em;
+}
+.botbor  {
+    border-bottom: 1px solid #5d5b5b;;
+}
+.five td{
+    padding: 0.8em;
+
+}
+@media (max-width:767px){
+    .card{
+        width:100%;
+    }
+}
